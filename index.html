@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Quiz</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body onload="start()">
+        <div id="q1">
+        <h1 class="question" id="question1"></h1>
+        <p id="score1"></p>
+        <br>
+        <button class="option" id="option1" onclick="question11()" onmouseover="hover1()" onmouseout="out1()"></button>
+        <br>
+        <button class="option" id="option2" onclick="question12()" onmouseover="hover2()" onmouseout="out2()"></button>
+        <br>
+        <button class="option" id="option3" onclick="question13()" onmouseover="hover3()" onmouseout="out3()"></button>
+        <br>
+        <button class="option" id="option4" onclick="question14()" onmouseover="hover4()" onmouseout="out4()"></button>
+        <br>
+        <button class="extra" onclick="next()">Next Question</button>
+        <br>
+    </div>
+    <div id="q2">
+        <h1 class="question" id="question2"></h1>
+        <p id="score2"></p>
+        <br>
+        <button class="option" id="option5" onclick="question11()" onmouseover="hover1()" onmouseout="out1()"></button>
+        <br>
+        <button class="option" id="option6" onclick="question12()" onmouseover="hover2()" onmouseout="out2()"></button>
+        <br>
+        <button class="option" id="option7" onclick="question13()" onmouseover="hover3()" onmouseout="out3()"></button>
+        <br>
+        <button class="option" id="option8" onclick="question14()" onmouseover="hover4()" onmouseout="out4()"></button>
+        <br>
+        <button class="extra" onclick="next()">Next Question</buttton>
+        <br>
+    </div>
+    <div id="q3">
+        <h1 class="question" id="question3"></h1>
+        <p id="score3"></p>
+        <br>
+        <button class="option" id="option9" onclick="question11()" onmouseover="hover1()" onmouseout="out1()"></button>
+        <br>
+        <button class="option" id="option10" onclick="question12()" onmouseover="hover2()" onmouseout="out2()"></button>
+        <br>
+        <button class="option" id="option11" onclick="question13()" onmouseover="hover3()" onmouseout="out3()"></button>
+        <br>
+        <button class="option" id="option12" onclick="question14()" onmouseover="hover4()" onmouseout="out4()"></button>
+        <br>
+        <button class="extra" onclick="next()">Next Question</buttton>
+        <br>    
+        <button class="extra" onclick="highscores()">View High Scores</button>
+        <br>
+        <button class="extra" onclick="savescore()">Save Score</button>
+        <br>
+    </div>
+    <div id="highscores">
+        <center>
+        <table id="scores" CELLSPACING="0"></table>
+        <br>
+        <button class="home" onclick="home()">Home</button>
+        </center>
+    </div>
+    <div id="savescore">
+        <center>
+        <h1 class="extratext">Enter Name To Save Score</h1>
+        <br>
+        <input id="entername" placeholder="Enter Name">
+        <br>
+        <button class="save" onclick="save()">Save Score</button>
+        <br>
+        <button class="home" onclick="home()">Home</button>
+        </center>
+    </div>
+    </body>
+</html>

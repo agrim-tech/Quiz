@@ -1,0 +1,130 @@
+.option{
+    width: 150px;
+    height:30px;
+    margin-top: 7px;
+    border: none;
+    color: rgb(224, 224, 224);
+    border-radius: 5px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+.extra{
+    width: 160px;
+    height:30px;
+    margin-top: 45px;
+    margin-left: 44%;
+    border: none;
+    color: rgb(224, 224, 224);
+    border-radius: 5px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    background-color: #292929;
+    padding-top: 6.5px;
+    padding-bottom: 6.5px;
+    display: block;
+}
+body{
+    background-color: #404040;
+    text-align: center;
+}
+
+
+.question{
+    color: whitesmoke;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    display: inline;
+    margin-left: 200px;
+}
+#score1,#score2,#score3{
+    color: whitesmoke;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    display: inline;  
+    margin-left: 100px; 
+    background-color: #292929; 
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 6.5px;
+    padding-left: 6.5px;
+    border: none;
+}
+input{
+    color: whitesmoke;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 20px;   
+    background-color: #292929; 
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    margin-top: 10px;
+}
+.extratext{
+    color: whitesmoke;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    display: inline;
+}
+.home{
+    width: 160px;
+    height:30px;
+    margin-top: 45px;
+    border: none;
+    color: rgb(224, 224, 224);
+    border-radius: 5px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    background-color: #292929;
+    padding-top: 6.5px;
+    padding-bottom: 6.5px;
+    display: block;
+}
+th{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    background-color: #999999;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 6.5px;
+    padding-left: 6.5px;
+    width:75px;
+}
+td{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    background-color: #b8b8b8;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 6.5px;
+    padding-left: 6.5px;
+    width:75px;   
+}
+#scores{
+    text-align: center;
+}
+.save{
+    width: 160px;
+    height:30px;
+    margin-top: 45px;
+    border: none;
+    color: rgb(224, 224, 224);
+    border-radius: 5px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    background-color: #292929;
+    padding-top: 6.5px;
+    padding-bottom: 6.5px;
+    display: block;
+}
